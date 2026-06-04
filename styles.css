@@ -6,21 +6,26 @@ body {
 }
 
 .hero {
-  background: #fff;
+  background: #ffffff;
   text-align: center;
-  padding: 80px 20px;
+  padding: 90px 20px;
 }
 
 .logo {
-  width: min(90%, 650px);
+  width: min(95%, 750px);
   height: auto;
   display: block;
   margin: 0 auto;
-  filter: drop-shadow(0px 6px 18px rgba(0,0,0,0.10));
+  filter: drop-shadow(0px 10px 25px rgba(0,0,0,0.12));
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.02);
 }
 
 .tagline {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 15px;
   color: #444;
   opacity: 0.8;
