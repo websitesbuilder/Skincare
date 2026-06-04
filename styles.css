@@ -19,9 +19,8 @@ body {
 
 /* LOGO */
 .logo {
-  width: 55%;
-  max-width: 550px;
-  height: auto;
+  max-height: 180px;
+  width: auto;
   display: block;
   margin: 0 auto;
 }
