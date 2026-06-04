@@ -27,7 +27,7 @@ const products = [
 
 let cart = [];
 
-const productList = document.getElementById("product-list");
+const productList = document.getElementById("shop");
 const cartItems = document.getElementById("cart-items");
 const totalEl = document.getElementById("total");
 
