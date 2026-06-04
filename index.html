@@ -1,24 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Glow Skincare</title>
-
-  <link rel="stylesheet" type="text/css" href="./styles.css">
-</head>
-
 <body>
+
+<header class="navbar">
+  <div class="logo">Glow Skincare</div>
+
+  <nav>
+    <a href="#">Skin Type</a>
+    <a href="#">Concerns</a>
+    <a href="#">Expert Advice</a>
+    <a href="#">Body Care</a>
+    <a href="#">Lifestyle</a>
+  </nav>
+</header>
 
 <header class="hero">
   <div class="hero-content">
 
-   <img src="logo.png" alt="Glow Skincare Logo" class="logo">
+    <img src="logo.png" alt="Glow Skincare Logo" class="logo">
 
+    <h1>YOUR BEST SKIN STARTS HERE</h1>
 
     <p class="tagline">
-      Radiance starts with self-care
+      Radiance starts with self-care. Discover personalized skincare that actually works.
     </p>
+
+    <a href="#product-list" class="cta">Find Your Routine</a>
 
   </div>
 </header>
@@ -32,13 +37,12 @@
   <button onclick="checkout()">Pay with Card</button>
 </div>
 
-<!-- Checkout Modal -->
 <div id="checkout-modal" class="modal hidden">
   <div class="modal-content">
-    <h2>Card Payment</h2>
+    <h2>Secure Payment</h2>
 
     <input type="text" placeholder="Card Number" />
-    <input type="text" placeholder="Expiry Date (MM/YY)" />
+    <input type="text" placeholder="MM/YY" />
     <input type="text" placeholder="CVC" />
     <input type="text" placeholder="Name on Card" />
 
@@ -50,4 +54,3 @@
 <script src="app.js"></script>
 
 </body>
-</html>
